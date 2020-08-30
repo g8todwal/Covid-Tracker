@@ -6,6 +6,10 @@
   cursor: pointer;
 }
 
+.infoBox-title {
+  font-weight: 800;
+}
+
 .infoBox-selected {
   border-top: 10px solid greenyellow;
 }
