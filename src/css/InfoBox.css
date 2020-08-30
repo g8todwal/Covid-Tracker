@@ -20,18 +20,36 @@
 
 .infoBox-cases {
 	color: #cc1034;
-  	font-weight: 600;
-  	font-size: 1.75rem;
-  	margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .infoBox-total {
 	color: #6c757d;
-  	font-weight: 700 !important;
-  	font-size: 0.8rem !important;
-  	margin-top: 15px !important;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
 }
 
 .cases-green {
   color: greenyellow !important;
+}
+
+@media (max-width: 990px) {
+
+  .infoBox > .MuiTypography-body1{
+     font-weight: 200;
+  }
+
+  .infoBox-cases {
+    font-size: 25px;
+    margin-left: -10px;
+  }
+
+  .infoBox {
+    margin-left: -5px;
+    margin-right: -25px;
+  }
+
 }

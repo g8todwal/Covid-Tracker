@@ -4,7 +4,6 @@
 
 .leaflet-container {
   height: 100%;
-  background-color: red;
   border-radius: 20px;
   margin-top: 16px;
   padding: 1rem;
@@ -41,4 +40,10 @@
 .info-deaths {
   	font-size: 16px;
   	margin-top: 5px;
+}
+
+@media (max-width: 990px) {
+  .map {
+    margin-bottom: 15px;
+  }
 }

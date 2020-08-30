@@ -44,6 +44,11 @@ body {
 	justify-content: space-between;
 }
 
+.app-graph {
+	flex-grow: 1;
+	margin-top: 15px;
+}
+
 
 @media (max-width: 990px) {
 	.app {
